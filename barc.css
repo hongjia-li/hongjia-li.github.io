@@ -1,0 +1,100 @@
+/* Show/hide defaults: everything is hidden except the home section. */
+.content-section { display: none;  }
+#home            { display: block; }
+
+
+html,body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-top: 50px;
+  background-color: unset;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 900px;
+}
+
+#main {
+  height: 100%;
+}
+
+.content-section {
+  min-height: 600px;
+  border-left: solid 2px red;
+  border-bottom: solid 2px red;
+  border-right: solid 2px red;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: black;
+}
+
+/* Navigation */
+.navbar {
+  min-height: 50px;
+  background: #ddd;
+  box-shadow: 0px 2px 3px grey;
+  border: 0px;
+}
+
+
+/* Main-page banner */
+#home {
+  background-image: url("boston-fade-light.png");
+  background-size: contain;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+#home h3 {
+  font-weight: 300;
+}
+
+.banner h1 {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 100px;
+}
+.banner h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  .banner h1 {
+    font-size: 48px;
+  }
+  .banner h2 {
+    font-size: 24px;
+  }
+}
+
+/* Program styles */
+.program-table tbody tr td {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.program-time { white-space: nowrap; } /* Forces everything onto one line. */
+.program-author { }
+.program-title { font-style: italic; }
+.program-event { }
+@media (max-width: 767px) {
+  .program-time { white-space: normal; }
+  .program-author { display: none; }
+  .program-title { font-style: normal; }
+  .program-event { }
+}
