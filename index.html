@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta content="Boston Area Architecture 2020 Workshop" name="description">
-    <title>BARC 2020</title>
+    <meta content="Boston Area Architecture 2019 Workshop" name="description">
+    <title>BARC 2019</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -42,24 +42,28 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="javascript:void(0)" onclick='show_only("home")'>BARC 2018</a>
+          <a class="navbar-brand" href="javascript:void(0)" onclick='show_only("home")'>BARC 2019</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
 
-           
-              <li><a href='javascript:void(0)' onclick='show_only("program")'>Program</a></li>
+            <li><a href='javascript:void(0)' onclick='show_only("abstracts")'>Call for Abstracts</a></li> 
+            <li><a href='javascript:void(0)' onclick='show_only("program")'>Program</a></li>
+            <li><a href='javascript:void(0)' onclick='show_only("pictures")'>Pictures</a></li>
             <li><a href='javascript:void(0)' onclick='show_only("registration")'>Registration</a></li> 
-            <!-- <li><a href='javascript:void(0)' onclick='show_only("abstracts")'>Call for Abstracts</a></li> -->
             <li><a href='javascript:void(0)' onclick='show_only("directions")'>Directions</a></li>
             <!-- <li><a href='javascript:void(0)' onclick='show_only("contacts")'>Contacts</a></li> -->
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Previous BARCs<span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="http://groups.csail.mit.edu/cag/barc2003/">2003</a></li>
+                <li><a href="http://www.ece.neu.edu/groups/nucar/barc2004/">2004</a></li> 
+                <li><a href="http://www.ele.uri.edu/barc2006/">2006</a></li>
                 <li><a href="http://www.bu.edu/barc2015/">2015</a></li>
                 <li><a href="http://www.ece.neu.edu/groups/nucar/barc2016/">2016</a></li>
                 <li><a href="http://bostonarch.github.io/2017/">2017</a></li>
+                <li><a href="http://bostonarch.github.io/2018/">2018</a></li>
               </ul>
             </li>
           </ul>
@@ -73,17 +77,26 @@
     <!-- Home -->
     <div class="content-section container" id="home">
       <div class="banner">
-        <h1>BARC 2020</h1>
+        <h1>BARC 2019</h1>
         <h2>Boston Area Architecture Workshop</h2>
-        <p>Friday, January 31, 2020<br>
-           Northeastern University<br>
-           Bldg 32, Room 141, Cambridge, MA</p>
+        <p>Friday, January 25, 2019<br>
+           Boston University<br>
+           43 Hawes St, Brookline, MA 02446<br>
+           Second Floor - Ladd Room, Wheelock College Brookline Campus</p>
+          
+        <h2>Sponsor</h2>
+        <p>
+            <a href="http://ascslab.org/"><img src="ascslab-logo.png" alt="ASCS Laboratory" style="width:250px;height:70px;"></a><br>
+            <a href="http://ascslab.org/">Adaptive and Secure Computing Systems (ASCS) Laboratory</a>
+        </p>
+        <hr>
+        <h3>Organizers</h3>
+          <p><a href="https://www.bu.edu/eng/profile/michel-kinsy/">Michel A. Kinsy</a></p>
+          <p><a href="https://www.bu.edu/eng/profile/ajay-joshi/">Ajay Joshi</a></p>
         <hr>
         <h3>Updates:</h3>
-
+       <p>The registration is now open. Link <a href="http://www.bu.edu/dbin/eng/register/barc/">here</a>. </p>
        <p>The <a href='javascript:void(0)' onclick='show_only("program")'>Program</a> is now available.</p>
-
-        <!-- <p>If you have not already registered, please do so as soon as possible: <a href="https://barc2018.eventbrite.com">registration</a></p> -->
       </div>
     </div>
 
@@ -92,100 +105,199 @@
     <div class="content-section container" id="program">
       <h3>Preliminary Schedule</h3>
       <table class="table table-striped program-table">
-        <tr><td><div class="program-time">8:30&ndash;8:50</div></td>
-            <td><div class="program-event">Welcome</div></td></tr>
-        <!-- Session 1 -->
-        <tr><td><div class="program-time">8:50&ndash;9:00</div></td>
-            <td><div class="program-author">Parnian Mokri and Mark Hempstead</div><div class="program-title">Detecting Coarse Grained Reconfigurable kernels using ReconfAST</div></td></tr>
-        <tr><td><div class="program-time">9:00&ndash;9:20<div class="program-time"></td>
-            <td><div class="program-author">Michel Kinsy, Mihailo Isakov, Alan Ehret and Donato Kava</div><div class="program-title">Self-Aware Polymorphic Adaptive (SAPA) Architectures</div></td></tr>
-        <tr><td><div class="program-time">9:20&ndash;9:40<div class="program-time"></td>
-            <td><div class="program-author">Ayse Coskun, Furkan Eris, Ajay Joshi, Andrew B. Kahng, Yenai Ma, Saiful Mojumder and Tiansheng
-Zhang</div><div class="program-title">Reclaiming Dark Silicon Using Thermally-Aware Chiplet Organization in 2.5D Integrated Systems</div></td></tr>
-        <tr><td><div class="program-time">9:40&ndash;10:00<div class="program-time"></td>
-            <td><div class="program-author">Jiwon Choe, Jonathan Lister, R. Iris Bahar, Maurice Herlihy and Tali Moreshet</div><div class="
-program-title">Managing Concurrent Data Structures with Processing-In-Memory</div></td></tr>
-        <!-- Break -->
-   
-        <!-- Break -->
-        <tr><td><div class="program-time">10:00&ndash;10:20<div class="program-time"></td>
-            <td><div class="program-event">Coffee break</div></td></tr>
-        <!-- Session 2 -->
-        <tr><td><div class="program-time">10:20&ndash;10:40</div></td>
-            <td><div class="program-author">Brandon Reagen, Udit Gupta, Robert Adolf, Michael Mitzenmacher, Alexander Rush, Gu-Yeon Wei and
- David Brooks</div><div class="program-title">Compressing Deep Neural Networks with Probabilistic Data Structures</div></td></tr>
-        <tr><td><div class="program-time">10:40&ndash;11:00</div></td>
-            <td><div class="program-author">Aditya Narayan, Tiansheng Zhang, Shaizeen Aga, Satish Narayanasamy and Ayse Coskun</div><div class="program-title"> An Automated Framework for Memory Allocation in Heterogeneous Memory Systems</div></td></tr>
+        <tr>
+            <td><div class="program-time">8:30&ndash;8:40</div></td>
+            <td><div class="program-event">Welcome Remarks</div></td>
+        </tr>
+         <!-- Session 1 -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"><strong>General Architectures (8:40 AM &ndash; 10:00 AM)</strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">8:40&ndash;9:00</div></td>
+            <td><div class="program-author">Georgios Angelopoulos, Craig Barner and Richard Kessler</div>
+                <div class="program-title">Securing the Processor-to-Processor and Processor-to-Memory Communication Links [<a href="papers/Angelopoulos.pdf">Paper</a>] [<a href="presentations/Angelopoulos.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">9:00&ndash;9:20</div></td>
+            <td><div class="program-author">Aditya Narayan, Yvain Thonnart, Pascal Vivet, Cesar Fuguet Tortolero and Ayse Coskun</div>
+                <div class="program-title">Temperature and Process Variation-Aware Wavelength Selection in Photonic NoCs [<a href="papers/Narayan.pdf">Paper</a>] [<a href="presentations/Narayan.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">9:20&ndash;9:40</div></td>
+            <td><div class="program-author">Jiwon Choe, Amy Huang, Tali Moreshet, Maurice Herlihy and Iris Bahar</div>
+                <div class="program-title">Hardware-Software Coordination for High Performance Concurrent Data Structures with Near-Data-Processing [<a href="papers/Choe.pdf">Paper</a>] [<a href="presentations/Choe.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">9:40&ndash;10:00</div></td>
+            <td><div class="program-author">Abdulsami Aldahlawi and Yong-Bin Kim</div>
+                <div class="program-title">GPU Architecture Optimization for Mobile Computing</div>
+            </td>
+        </tr>
+         <!-- Break -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> Coffee Break (10:00 AM&ndash;10:15 AM)</div>
+            </td>
+        </tr>
+         <!-- Session 2 -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> <strong>Security (10:20 AM&ndash;11:20 AM)</strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">10:20&ndash;10:40</div></td>
+            <td><div class="program-author">Wang Xu and Israel Koren</div>
+                <div class="program-title">Designing a Secure DRAM+NVM Hybrid Memory Module [<a href="papers/Xu.pdf">Paper</a>] [<a href="presentations/Xu.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">10:40&ndash;11:00</div></td>
+            <td><div class="program-author">Boyou Zhou, Anmol Gupta, Rasoul Jahanshahi, Manuel Egele and Ajay Joshi</div>
+                <div class="program-title">Can We Reliably Detect Malware Using Hardware Performance Counters? [<a href="papers/Zhou.pdf">Paper</a>] [<a href="presentations/Zhou.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">11:00&ndash;11:20</div></td>
+            <td><div class="program-author">Novak Boškov, Mihailo Isakov and Michel A. Kinsy</div>
+                <div class="program-title">CodeTrolley: Hardware-Assisted Control Flow Obfuscation [<a href="papers/Boskov.pdf">Paper</a>] [<a href="presentations/Boskov.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+         <!-- Session 3 -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> <strong>Designs around RISC-V (11:20 AM&ndash;12:00 PM)</strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">11:20&ndash;11:40</div></td>
+            <td><div class="program-author">Steven Hoover and Akos Hadnagy</div>
+                <div class="program-title">Formally Verifying Many RISC-V Implementations with One Page of Code [<a href="papers/Hoover.pdf">Paper</a>] [<a href="presentations/Hoover.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">11:40&ndash;12:00</div></td>
+            <td><div class="program-author">Michael Graziano, Miguel Mark, Stefan Gvozdenovic and Michel A. Kinsy</div>
+                <div class="program-title">Hardware Assisted Transparent ROP Mitigation for RISC-V</div>
+            </td>
+        </tr>
+          <!-- Lunch -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> Lunch Hour (12:00 PM&ndash;1:00 PM)</div>
+            </td>
+        </tr>
+         <!-- Session 4 -->
+          
+        <tr>
+            <td><div class="program-time">1:10&ndash;1:40</div></td>
+            <td><div class="program-author">Ilia Lebedev and Christian Wentz</div>
+                <div class="program-title">Cryptographically Attested Secure Hardware for Enclaves [<a href="presentations/Lebedev.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">1:40&ndash;2:00</div></td>
+            <td><div class="program-author">Sahan Bandara, Alan Ehret, and Donato Kava</div>
+                <div class="program-title">Tools for RISC-V Design Space Exploration </div>
+            </td>
+        </tr>
+          
+         <!-- Session 5 -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> <strong>Machine Learning Acceleration (2:00 PM&ndash;3:00 PM)</strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">2:00&ndash;2:20</div></td>
+            <td><div class="program-author">Shayan Moini, Matthew Caswell and Wayne Burleson</div>
+                <div class="program-title">Dynamic Precision Tunability in Low-Power Training of Deep Neural Networks [<a href="papers/Moini.pdf">Paper</a>] [<a href="presentations/Moini.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">2:20&ndash;2:40</div></td>
+            <td><div class="program-author">Saiful A. Mojumder, Marcia S Louis, Yifan Sun, Amir Kavyan Ziabari, Jose L. Abellan, John Kim, David Kaeli and Ajay Joshi</div>
+                <div class="program-title">Evaluation of Volta-based DGX-1 System Using DNN Workloads [<a href="papers/Mojumder.pdf">Paper</a>] [<a href="presentations/Mojumder.pdf">Presentation</a>]</div>
+            </td>
+        </tr>
+         <!-- Break -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> Coffee Break (2:40 PM&ndash;2:55 PM)</div>
+            </td>
+        </tr>
+         <!-- Session 6 -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> <strong>Invited Speaker (3:00 PM&ndash;3:40 PM)</strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-author">Vijay Janapa Reddi, Associate Professor, Harvard University</div>
+                <div class="program-title">The Vision Behind MLPerf (mlperf.org): A Community-driven ML Benchmark Suite for Software Frameworks and Hardware Accelerators in Cloud and Edge Computing</div>
+            </td>
+        </tr>
 
-
-        <tr><td><div class="program-time">11:00&ndash;11:20<div class="program-time"></td>
-            <td><div class="program-author">Michel Kinsy, Miguel Mark, Alan Ehret and Donato Kava</div><div class="program-title">Sphinx: A
- Secure Architecture Based on Binary Code Diversification and Execution Obfuscation</div></td></tr>
-
-        <tr><td><div class="program-time">11:20&ndash;12:00<div class="program-time"></td>
-            <td><div class="program-author">Joel Emer, Srini Devadas, Adam Belay, and James Mickens</div><div class="program-title">Invited Panel</div></td></tr>
-        <!-- Lunch -->
-        <tr><td><div class="program-time">12:00&ndash;1:00<div class="program-time"></td>
-            <td><div class="program-event">Lunch</div></td></tr>
-        <!-- Session 3 -->
-        <tr><td><div class="program-time">1:00&ndash;1:20<div class="program-time"></td>
-            <td><div class="program-author">Aaron Welch</div><div class="program-title">An overview on the impact of Spectre and Meltdown on ARM</div></td></tr>
-        <tr><td><div class="program-time">1:20&ndash;1:40<div class="program-time"></td>
-            <td><div class="program-author">
-Shankar Viswanathan</div><div class="program-title">
-Side Channel attacks on modern hardware
-</div></td></tr>
-        <tr><td><div class="program-time">1:40&ndash;2:00<div class="program-time"></td>
-            <td><div class="program-author">Rohan Garg and Gene Cooperman</div><div class="program-title">Proxies for checkpointing in DMTCP:  Staying close to the Hardware, but not too Close
-  (Examples given from GPUs, RDMA networks, and other HPC components)</td></tr>
-      
-              <!-- Break -->
-        <tr><td><div class="program-time">2:00&ndash;2:20<div class="program-time"></td>
-                    <td><div class="program-author">John Leidel</div><div class="program-title">xBGAS: A RISC-V Extension for Datacenter-Scale Addressing</div></td></tr>
-        <tr><td><div class="program-time">2:20&ndash;2:40<div class="program-time"></td>
-            <td><div class="program-event">Coffee break</div></td></tr>
-        <!-- Session 4 -->
-        <tr><td><div class="program-time">2:40&ndash;3:00<div class="program-time"></td>
-            <td><div class="program-author">
-Kaustubh Shivdikar, Kaushal Paneri and David Kaeli</div><div class="program-title">Speeding up DNNs using HPL based Fine-grained Tiling for
- Distributed Multi-GPU Training
-</div></td></tr>
-        <tr><td><div class="program-time">3:00&ndash;3:20<div class="program-time"></td>
-            <td><div class="program-author">
-Mihailo Isakov and Michel Kinsy</div><div class="program-title">
-Hardware Efficient Sparse Neural Network Training</div></td></tr>
-        <tr><td><div class="program-time">3:20&ndash;3:40<div class="program-time"></td>
-            <td><div class="program-author">
-Babatunde Egbantan, Fritz Previlon and David Kaeli</div><div class="program-title">
-Comparing HPC Applications Kernels Vulnerability Using LLFI-GPU</div></td></tr>
-        <tr><td><div class="program-time">3:40&ndash;4:00<div class="program-time"></td>
-            <td><div class="program-author">
-        Rishiyur Nikhil</div><div class="program-title">
-The Bluespec RISC-V Verification Factory</div></td></tr>
-<tr><td><div class="program-time">4:00&ndash;4:20<div class="program-time"></td>
-            <td><div class="program-author">
-        Zheming Jin, Kazutomo Yoshii and Hal Finkel</div><div class="program-title">
-Understanding How OpenCL Parameters Impact the Performance of Streaming Kernels on FPGA</div></td></tr>
-        <!-- Break -->
+         <!-- Session 6 -->
+        <tr>
+            <td><div class="program-time"></div></td>
+            <td><div class="program-title"> <strong>Quantum and Post-Quantum Computing (3:40 PM&ndash;4:40 PM)</strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">3:40&ndash;4:00</div></td>
+            <td><div class="program-author">Lake Bu, Rashmi Agrawal, Hai Cheng and Michel A. Kinsy</div>
+                <div class="program-title">A Lightweight McEliece Cryptosystem Co-Processor Design [<a href="papers/Bu.pdf">Paper</a>] </div>
+            </td>
+        </tr>  
+        <tr>
+            <td><div class="program-time">4:00&ndash;4:20</div></td>
+            <td><div class="program-author">Jiayu Zhang </div>
+                <div class="program-title">Delegating Quantum Computation Using Only Hash Functions</div>
+            </td>
+        </tr>
+          
+        <tr>
+            <td><div class="program-time">4:20&ndash;4:40</div></td>
+            <td><div class="program-author">Lake Bu, Rashmi Agrawal, Hai Cheng and Michel A. Kinsy</div>
+                <div class="program-title">Ring-Learning with Errors Post-Quantum Cryptographic Hardware Primitives [<a href="papers/Agrawal.pdf">Paper</a>]</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="program-time">4:40&ndash;4:50</div></td>
+            <td><div class="program-event">Closing Remarks </div></td>
+        </tr>
+          
       </table>
     </div>
-
-
+        
+    <!-- Pictures -->
+    <div class="content-section container" id="pictures">
+        <h1>Pictures from the workshop!</h1>
+        <img src="pictures/picture1.jpg" alt="picture 1" style="width:875px;"><br>
+        <img src="pictures/picture2.jpg" alt="picture 1" style="width:875px;"><br>
+        <img src="pictures/picture3.jpg" alt="picture 1" style="width:875px;"><br>
+    </div>  
+        
+        
     <!-- Registration -->
     <div class="content-section container" id="registration">
       <h2>Registration</h2>
       <p>
-      Registration is not required this year.
      <ul>
-        <li>Industry participants: FREE (No registration required)</li>
-        <li>Academic participants: FREE (No registration required)</li>
-       <!--  <li>Students: FREE (Student registrations must be sponsored by a faculty member.)</li>-->
+        <li>Industry participants: $50</li>
+        <li>Academic participants - faculty: $50 </li>
+        <li>Academic participants - student: FREE (Student registrations must be sponsored by a faculty member).</li>
       </ul> 
+      <p>The registration is now open. Link <a href="http://www.bu.edu/dbin/eng/register/barc/">here</a>. </p>
       Registration includes breakfast, light lunch, and coffee during all breaks.
-      </p>
-      <p> 
-       <!-- <a href="https://barc2018.eventbrite.com/">Registration site is under construction.</a>-->
-      </p>
     </div>
 
     <!-- Call for Abstracts -->
@@ -193,7 +305,7 @@ Understanding How OpenCL Parameters Impact the Performance of Streaming Kernels 
       <h2>Call for Abstracts</h2>
       <h3>Scope:</h3>
       <p>
-        The goal of BARC is to provide a forum for computer architects in the Greater Boston area and beyond to get together and present/discuss the 'latest and greatest' in the area of computer architecture. Papers are being sought on many aspects of computer architecture, including (but not limited to):<br>
+        The goal of BARC is to provide a forum for computer architects in the Greater Boston area and beyond to get together and present/discuss the “latest and greatest” in the area of computer architecture. Papers are being sought on all aspects of computer architecture, including (but not limited to):<br>
         <li>Microarchitecture</li>
         <li>Multicore/manycore processors</li>
         <li>GPUs</li>
@@ -206,40 +318,40 @@ Understanding How OpenCL Parameters Impact the Performance of Streaming Kernels 
         <li>Accelerator-based architectures</li>
         <li>Embedded processing</li>
         <li>Performance evaluation techniques</li>
+        <li>Security</li>
       </p>
 
       <h3>Important Dates:</h3>
       <p class="plain">
-        Deadline Extended <del>January 5, 2018</del><br/>
-        Abstract Submission Deadline: January 12, 2018<br/>
-        Author Notification: January 15, 2018<br/>
-        Workshop Date: Friday, January 26, 2018
+        Abstract Submission Deadline: January 7, 2019<br/>
+        Author Notification: January 14, 2019<br/>
+        Workshop Date: Friday, January 25, 2019
       </p>
 
-      </p>
 
       <h3>Submissions:</h3>
       <p>
-        We invite abstracts, two pages or shorter, for consideration for presentation at BARC 2018.  We will also have a session of lightning talks - you should denote a lightning round talk in your title as "Lightning Round".  Authors may present work they have already published elsewhere, or plan to publish in the future.  We welcome participation from those outside of the Greater Boston area.
+        We invite abstracts, two pages or shorter, for consideration for presentation at BARC 2019. Authors may present work they have already published elsewhere, or plan to publish in the future. We welcome participation from those outside of the Greater Boston area. 
         <br>
         <br>
         Please submit your abstract (in PDF format) using EasyChair:<br>
-        <a href="https://easychair.org/conferences/?conf=barc2018">https://easychair.org/conferences/?conf=barc2018.</a>
-        <!-- <a href="https://easychair.org/conferences/?conf=barc2016">https://easychair.org/conferences/?conf=barc2018.</a> -->
+        <a href="https://easychair.org/conferences/?conf=barc19">https://easychair.org/conferences/?conf=barc19.</a>
         <br>
         <br>
-        Abstracts will be accepted for a regular podium presentation or for a poster presentation. All accepted abstracts will be published in the workshop proceedings. <br>Call for Abstracts in <a href="http://soc.mit.edu/BARC2018CFP.pdf">[PDF]</a>
+        Abstracts will be accepted for a regular podium presentation or for a poster presentation. All accepted abstracts will be published in the workshop proceedings. <br>Call for Abstracts in <a href="http://ascslab.org/outreach/2019/BARC19/BARC19CFP.pdf">[PDF]</a>
+        <br>
+        Example Latex templates can be found <a href="http://ascslab.org/outreach/2019/BARC19/BARC2019-Latex-Template.zip">[HERE].</a>
         <br>
         <br>
-        For questions, contact <a href="mailto:klk@mit.edu">Kurt Keville</a> or 
-<a href="mailto:arun@draper.com">
-Arun Thomas</a>.
+        For questions, contact <a href="mailto:mkinsy@bu.edu">Michel A. Kinsy</a> or 
+<a href="mailto:joshi@bu.edu">
+Ajay Joshi</a>.
     </p>
     </div>
 
     <!-- Author Info -->
     <div class="content-section container" id="author-info">
-    The final manuscripts of all accepted abstracts will be posted on the BARC 2016 website. Please use the following guidelines for preparing the final manuscript:
+    The final manuscripts of all accepted abstracts will be posted on the BARC 2019 website. Please use the following guidelines for preparing the final manuscript:
       <ul>
         <li>Manuscript should be two-pages long.</li>
         <li>Text should use two column format.</li>
@@ -247,22 +359,20 @@ Arun Thomas</a>.
         <li>Using at least a 10-pt font is recommended.</li>
         <li>Submissions should be in PDF format.</li>
       </ul>
-      The technical program of BARC 2018 includes both oral presentations and poster presentations. Each oral presentation will be 20 minutes long (including Q&amp;A). Poster authors should print their posters and bring to the workshop. The size of the posters can be up to 8'x4'.
+      The technical program of BARC 2019 includes both oral presentations and poster presentations. Each oral presentation will be 20 minutes long (including Q&amp;A). Poster authors should print their posters and bring to the workshop. The size of the posters can be up to 8'x4'.
     </div>
 
     <!-- Directions -->
     <div class="content-section container" id="directions">
       <h2>Directions</h2>
       <p>
-      BARC 2018 will be held on the ground floor of the Stata Center, Gates Building at MIT.
+      BARC 2019 will be held at the BU Wheelock College Brookline Campus, Second Floor - Ladd Room. The full address is 43 Hawes St, Brookline, MA 02446. 
       </p>
 
       <div class="embed-responsive embed-responsive-4by3">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.103270026274!2d-71.09285873528621!3d42.3616383791868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a95d3025a9%3A0xb1de557289ff6bbe!2sRay+and+Maria+Stata+Center%2C+Cambridge%2C+MA+02142!5e0!3m2!1sen!2sus!4v1511984530386" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959.178850740307!2d-71.11199165266825!3d42.34378381613535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e379ed649036eb%3A0xe26d6ed14a8fbedd!2s43+Hawes+St%2C+Brookline%2C+MA+02446!5e0!3m2!1sen!2sus!4v1544568695314" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </div>
-
-    </div> <!-- container -->
-    </div> <!-- content sections -->
 
     <!-- Bootstrap's javascript plugins -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
